@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Tests", "OnlineStore.Tests\OnlineStore.Tests.csproj", "{5E38AC4E-96E1-48D2-92A0-04BABB5DCDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Domain", "OnlineStore.Domain\OnlineStore.Domain.csproj", "{1CD07CB2-DB5C-4D38-93D3-B8A0D8D0A8AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E38AC4E-96E1-48D2-92A0-04BABB5DCDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E38AC4E-96E1-48D2-92A0-04BABB5DCDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E38AC4E-96E1-48D2-92A0-04BABB5DCDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E38AC4E-96E1-48D2-92A0-04BABB5DCDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD07CB2-DB5C-4D38-93D3-B8A0D8D0A8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD07CB2-DB5C-4D38-93D3-B8A0D8D0A8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD07CB2-DB5C-4D38-93D3-B8A0D8D0A8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD07CB2-DB5C-4D38-93D3-B8A0D8D0A8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
