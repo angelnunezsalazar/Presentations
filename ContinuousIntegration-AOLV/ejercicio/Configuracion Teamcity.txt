@@ -1,0 +1,26 @@
+Checkout Rule
++:ContinuousIntegration-AOLV/Java=>.
+
+Unit Test
+Assemblies: OnlineStore.Tests/bin/release/OnlineStore.Tests.dll
+Coverage Filters NET: +:OnlineStore.Domain
+Coverage Filters Java: domain.*
+
+Duplicate Finder
+**/AssemblyInfo.cs
+
+Docs
+mvn clean javadoc:javadoc
+Report: docs/index.html
+
+Web Package
+BuildPath: OnlineStore.Web/OnlineStore.Web.csproj
+Target: Package
+CommandLine Parameters: /P:Configuration=Release
+
+Artifacts
+Net: OnlineStore.Web/obj/release/Package/OnlineStore.Web.zip
+Java: 
+target\site\apidocs=>docs
+target\OnlineStore-1.0.jar
+
