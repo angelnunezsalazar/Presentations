@@ -1,0 +1,3 @@
+[submodule "SinglePageApplications_CodePassion2012/src"]
+	path = SinglePageApplications_CodePassion2012/src
+	url = git://github.com/snahider/Bakery.git
