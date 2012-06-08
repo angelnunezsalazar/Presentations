@@ -1,0 +1,16 @@
+Es una sessión principalmente práctica,
+decargar el código de la siguiente dirección:
+
+https://github.com/snahider/Head-First-Design-Patterns
+
+- Los que van a utilizar VS2010 - C#:
+Descargar los siguientes plug-ins:
+http://www.jetbrains.com/resharper/
+https://github.com/continuoustests/AutoTest.Net/downloads
+
+- Los que van a utilizar Eclipse - Java:
+Agregar el plug-in Infinitest, desde el mismo eclipse 
+http://update.improvingworks.com 
+(Eclipse: Help -> Software Updates)
+
+
