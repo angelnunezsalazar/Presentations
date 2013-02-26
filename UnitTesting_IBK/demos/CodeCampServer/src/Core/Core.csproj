@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C81B684-40CC-472A-804D-7C0F963315F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeCampServer.Core</RootNamespace>
+    <AssemblyName>CodeCampServer.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\NHibernate-2.1.0.GA-bin\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bases\Enumeration.cs" />
+    <Compile Include="Bases\PersistentObject.cs" />
+    <Compile Include="Common\AttributeExtensions.cs" />
+    <Compile Include="Common\ExpressionHelper.cs" />
+    <Compile Include="Common\Format.cs" />
+    <Compile Include="Common\PrimitiveExtensions.cs" />
+    <Compile Include="Common\QueryLimitExtensions.cs" />
+    <Compile Include="Common\ReflectionExtensions.cs" />
+    <Compile Include="Common\UINameHelper.cs" />
+    <Compile Include="Domain\Bases\ChangeAuditInfo.cs" />
+    <Compile Include="Domain\Bases\Heartbeat.cs" />
+    <Compile Include="Domain\Bases\IAuditable.cs" />
+    <Compile Include="Domain\Bases\IHeartbeatRepository.cs" />
+    <Compile Include="Domain\Bases\ISelectableEntity.cs" />
+    <Compile Include="Domain\IEventRepository.cs" />
+    <Compile Include="Domain\IMeetingRepository.cs" />
+    <Compile Include="Domain\ISponsorRepository.cs" />
+    <Compile Include="Domain\IUserGroupRepository.cs" />
+    <Compile Include="Bases\AuditedPersistentObject.cs" />
+    <Compile Include="Domain\Model\Event.cs" />
+    <Compile Include="Bases\IGloballyUnique.cs" />
+    <Compile Include="Domain\Model\IKeyable.cs" />
+    <Compile Include="Domain\Model\Meeting.cs" />
+    <Compile Include="Domain\Model\Sponsor.cs" />
+    <Compile Include="Domain\Model\Enumerations\SponsorLevel.cs" />
+    <Compile Include="Domain\Model\UserGroup.cs" />
+    <Compile Include="Domain\Bases\ValidationResult.cs" />
+    <Compile Include="Domain\IConferencerRepository.cs" />
+    <Compile Include="Domain\IKeyedRepository.cs" />
+    <Compile Include="Domain\Bases\IRepository.cs" />
+    <Compile Include="Domain\Bases\IUserRepository.cs" />
+    <Compile Include="Domain\Model\Conference.cs" />
+    <Compile Include="Domain\Model\KeyedObject.cs" />
+    <Compile Include="Domain\Bases\User.cs" />
+    <Compile Include="Domain\Bases\ValueObject.cs" />
+    <Compile Include="IBatchJobAgent.cs" />
+    <Compile Include="ILogger.cs" />
+    <Compile Include="IRequiresConfigurationOnStartup.cs" />
+    <Compile Include="ISystemClock.cs" />
+    <Compile Include="Clock.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="LoggerFactory.cs" />
+    <Compile Include="Services\BatchJobAgents\AnotherBatchJob.cs" />
+    <Compile Include="Services\BatchJobAgents\SampleBatchJob.cs" />
+    <Compile Include="Services\BusinessRule\DeleteUserGroup\DeleteUserGroupCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\DeleteUserGroupCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\CreateHeartbeat\CreateHeartbeatCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\CreateHeartbeatCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\Login\LoginCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\UpdateMeetingCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\UpdateMeeting\UpdateMeetingCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\DeleteMeeting\DeleteMeetingCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\DeleteMeetingCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\UpdateSponsor\UpdateSponsorCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\UpdateSponsorCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\UpdateUserGroup\UpdateUserGroupCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\UpdateUserGroupCommandMessage.cs" />
+    <Compile Include="Services\BusinessRule\ICommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\UpdateUser\UpdateUserCommandHandler.cs" />
+    <Compile Include="Services\BusinessRule\UpdateUserCommandMessage.cs" />
+    <Compile Include="Services\IAuthenticationService.cs" />
+    <Compile Include="Services\ICryptographer.cs" />
+    <Compile Include="Services\IHeartbeatChecker.cs" />
+    <Compile Include="Services\Impl\HeartbeatChecker.cs" />
+    <Compile Include="Services\Unique\EntitySpecificationOfGuid.cs" />
+    <Compile Include="Services\Unique\IEntityCounter.cs" />
+    <Compile Include="Services\Unique\IEntitySpecification.cs" />
+    <Compile Include="Services\IHttpFileDownloaderService.cs" />
+    <Compile Include="Services\Impl\AuthenticationService.cs" />
+    <Compile Include="Services\Impl\Cryptographer.cs" />
+    <Compile Include="Common\ObjectExtensions.cs" />
+    <Compile Include="Common\EnumerableExtensions.cs" />
+    <Compile Include="Services\Impl\SecurityContext.cs" />
+    <Compile Include="Services\IRulesEngine.cs" />
+    <Compile Include="Services\ISecurityContext.cs" />
+    <Compile Include="Services\Unique\IUniquenessChecker.cs" />
+    <Compile Include="Services\IUserSession.cs" />
+    <Compile Include="AbstractFactoryBase.cs" />
+    <Compile Include="Services\Unique\UniquenessChecker.cs" />
+    <Compile Include="Services\UserSessionStub.cs" />
+    <Compile Include="SystemTime.cs" />
+    <Compile Include="Common\TimeExtensions.cs" />
+    <Compile Include="SystemClockFactory.cs" />
+    <Compile Include="UnitOfWorkFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Services\Bases\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
