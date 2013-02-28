@@ -1,0 +1,101 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IDiscountDB`0" priority="9" />
+      <Item value="discountDb" priority="4" />
+      <Item value="new" priority="6" />
+      <Item value="DiscountDB" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="CustomerCategory`0" priority="1" />
+      <Item value="var" priority="3" />
+      <Item value="Mock" priority="1" />
+      <Item value="mock" priority="2" />
+      <Item value="container" priority="1" />
+      <Item value="WindsorContainer" priority="0" />
+      <Item value="DiscountDB`0" priority="1" />
+      <Item value="OrderServices`0" priority="2" />
+      <Item value="orderServices" priority="0" />
+      <Item value="Component`0" priority="0" />
+      <Item value="CommonServiceLocator" priority="0" />
+      <Item value="WindsorAdapter" priority="0" />
+      <Item value="WindsorServiceLocator`0" priority="0" />
+      <Item value="ServiceLocator`0" priority="0" />
+      <Item value="stub" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="setup" priority="0" />
+      <Item value="Setup`1" priority="1" />
+      <Item value="Object" priority="3" />
+      <Item value="Verify`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ClassLibrary.IDiscountDB">
+      <Item value="GetDiscount`0" priority="1" />
+      <Item value="Save`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ClassLibrary.CustomerCategory">
+      <Item value="Good" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`4" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="ResolveAll`1" priority="0" />
+      <Item value="Resolve`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Practices.ServiceLocation.ServiceLocator">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:DiscountDB.cs" caret="311" fromTop="12" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="693" fromTop="6" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="980" fromTop="6" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="776" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1309" fromTop="21" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1197" fromTop="9" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="429" fromTop="3" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="429" fromTop="10" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:DiscountDB.cs" caret="107" fromTop="5" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="429" fromTop="16" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="429" fromTop="16" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="429" fromTop="6" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="733" fromTop="8" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="297" fromTop="12" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="549" fromTop="10" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="850" fromTop="7" />
+      <File id="CD1A953F-F506-4FAB-96BE-56EE47F86F75/f:OrderServices.cs" caret="954" fromTop="12" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="319" fromTop="8" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1353" fromTop="20" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1459" fromTop="6" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="763" fromTop="8" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1130" fromTop="10" />
+      <File id="8EB2A5B7-C402-4AA1-9285-2B55C0ED9778/f:OrderServicesTests.cs" caret="1282" fromTop="15" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="0" fromTop="0" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="743" fromTop="3" />
+      <File id="98DD5512-ECEC-488D-BED0-49C84F9692DD/f:Program.cs" caret="776" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

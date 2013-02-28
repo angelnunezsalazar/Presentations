@@ -1,0 +1,127 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Controllers/f:HomeController.cs" caret="332" fromTop="14" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Home/f:Index.cshtml" caret="44" fromTop="4" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Models/f:Post.cs" caret="274" fromTop="13" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Models/f:Blog.cs" caret="245" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Create.cshtml" caret="560" fromTop="13" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Web.config" caret="208" fromTop="7" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Details.cshtml" caret="225" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:HtmlHelpersExtensions.cs" caret="761" fromTop="22" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="744" fromTop="9" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Data/f:PostsRepository.cs" caret="429" fromTop="14" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Controllers/f:PostsController.cs" caret="356" fromTop="5" />
+      <File id="B148ABFC-71F3-4DB5-B1D5-939AC2EB86DA/f:PostsControllerTests.cs" caret="408" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="502" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Web.config" caret="222" fromTop="7" />
+      <File id="B148ABFC-71F3-4DB5-B1D5-939AC2EB86DA/f:PostsControllerTests.cs" caret="135" fromTop="8" />
+      <File id="B148ABFC-71F3-4DB5-B1D5-939AC2EB86DA/f:PostsControllerTests.cs" caret="530" fromTop="16" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="11" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="16" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="3" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="6" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="22" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="4" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="1122" fromTop="7" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="933" fromTop="3" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="933" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="1394" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="1588" fromTop="10" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Controllers/f:PostsController.cs" caret="1332" fromTop="18" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="939" fromTop="14" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:HtmlHelpersExtensions.cs" caret="740" fromTop="23" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:HtmlHelpersExtensions.cs" caret="728" fromTop="14" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:HtmlHelpersExtensions.cs" caret="338" fromTop="15" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="56" fromTop="1" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Views/d:Posts/f:Index.cshtml" caret="917" fromTop="11" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="1169" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Controllers/f:PostsController.cs" caret="423" fromTop="14" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Controllers/f:PostsController.cs" caret="594" fromTop="10" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Data/f:PostsRepository.cs" caret="450" fromTop="11" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/d:Data/f:PostsRepository.cs" caret="429" fromTop="14" />
+      <File id="B148ABFC-71F3-4DB5-B1D5-939AC2EB86DA/f:PostsControllerTests.cs" caret="408" fromTop="12" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="2055" fromTop="15" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="991" fromTop="16" />
+      <File id="3DB4C07F-601C-4ABB-8707-455D9D3C822A/f:Global.asax.cs" caret="813" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="int" priority="2" />
+      <Item value="prop" priority="1" />
+      <Item value="String`0" priority="2" />
+      <Item value="DbSet" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="new" priority="1" />
+      <Item value="Blog" priority="0" />
+      <Item value="blogContext" priority="6" />
+      <Item value="Post`0" priority="0" />
+      <Item value="RedirectToAction`0" priority="0" />
+      <Item value="test" priority="0" />
+      <Item value="PostsController" priority="0" />
+      <Item value="controller" priority="0" />
+      <Item value="ae" priority="1" />
+      <Item value="Json`0" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="AllowGet" priority="0" />
+      <Item value="XmlSiteMapProvider`0" priority="0" />
+      <Item value="x" priority="0" />
+      <Item value="public" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="HtmlHelpersExtensions`0" priority="0" />
+      <Item value="helpers" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="builder" priority="0" />
+      <Item value="postsRepository" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Webinar.Models.Blog">
+      <Item value="Posts" priority="4" />
+      <Item value="SaveChanges`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Entity.DbSet`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Webinar.Controllers.PostsController">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewResult">
+      <Item value="ViewName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Webinar.Models.Post">
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.ContainerBuilder">
+      <Item value="RegisterType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Autofac.Builder.IRegistrationBuilder`3">
+      <Item value="As`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
